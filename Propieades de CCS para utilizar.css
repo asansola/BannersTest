@@ -1,0 +1,42 @@
+/* Propieades de CCS para utilizar*/
+
+
+/*genera que el que lo contenga aplique una posición con respecto a las cajas flotantes, 
+si existe un objeto flotante a la iz se utiliza el left para que quede a la 
+par del objeto. Si existe flotantes a la iz y der se puede usar both para que baje por 
+dejabo de ambos objetos*/
+#prueba{
+	clear:both;
+	clear:left;
+	clear: both;
+}
+
+				
+/*genera el espacio superior, en el contenedor que se aplique*/
+#prueba{
+	padding-top: 1.2em;
+}
+
+
+#prueba{
+position: relative; /*Es relativo con respeco al padre que lo contenga y se ajusta según el tamaño de este*/
+position: absolute; /*Toma el espacio del origen del primer elemento según el contenedor o al origen de coordenadas*/
+position: fixed;	/*el elemento simepre se mantendrá en una misma posición con respeco a su contenedor,
+aquque se haha scroll en la ventana*/
+position: inherit; /*se hereda las características del elemento padre*/
+}
+
+/*Toma todo el espacio del contendor donde este */
+#prueba{
+	background-size: 100%,100%;
+}
+
+
+#prueba{
+
+}
+
+/*Elimina los margenes q trae el navegador por defecto*/
+*{
+
+}

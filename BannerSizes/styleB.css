@@ -39,24 +39,18 @@ a {
 /* (No dimensions or font sizes here) */
 h1 { /* colot Principal letters*/
 	position:absolute;
-	color:#fff;
+	color:#F67C01;
 	text-shadow:1px 1px 3px #000;
 }
 
 h2 {   /* color secundario letters*/
 	background:#000000;
-	background-image: linear-gradient(bottom, rgb(196,139,96) 0%, rgb(255,244,140) 95%);
-	background-image: -o-linear-gradient(bottom, rgb(196,139,96) 0%, rgb(255,244,140) 95%);
-	background-image: -moz-linear-gradient(bottom, rgb(196,139,96) 0%, rgb(255,244,140) 95%);
-	background-image: -webkit-linear-gradient(bottom, rgb(196,139,96) 0%, rgb(255,244,140) 95%);
-	background-image: -ms-linear-gradient(bottom, rgb(196,139,96) 0%, rgb(255,244,140) 95%);
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, rgb(196,139,96)),
-		color-stop(0.95, rgb(255,244,140))
-	);
+	background-image: linear-gradient(bottom,  #726F6D 0%,#D3D0CC 95%);
+	background-image: -o-linear-gradient(bottom, #726F6D 0%, #D3D0CC  95%);
+	background-image: -moz-linear-gradient(bottom, #726F6D  0%,  #D3D0CC  95%);
+	background-image: -webkit-linear-gradient(bottom, #726F6D  0%, #D3D0CC  95%);
+	background-image: -ms-linear-gradient(bottom, #726F6D  0%, #D3D0CC 95%);
+	background-image: -webkit-gradient(linear,left bottom,left top,);
 	color:#000;
 	width:100%;
 	position:absolute;
